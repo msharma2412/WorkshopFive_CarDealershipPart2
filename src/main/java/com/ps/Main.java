@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         UserInterface userInterface = new UserInterface();
         userInterface.display();
+<<<<<<< HEAD
 
         Vehicle honda = new Vehicle(1233654467, 2024, "Honda", "Accord"
                 , "4-door", "Blue", 1000, 8000);
@@ -33,3 +34,7 @@ public class Main {
 
 // put a method that handles case 10 which is leasing or selling a vehicle
 // use scanner to get user info
+=======
+    }
+}
+>>>>>>> origin/main
