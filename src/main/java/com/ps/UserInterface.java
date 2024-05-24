@@ -7,7 +7,6 @@ public class UserInterface {
     private Dealership dealership;
     private static Scanner scanner = new Scanner(System.in);
 
-<<<<<<< HEAD
 
 //    hint: Updates were rejected because the tip of your current branch is behind
 //    Done
@@ -26,8 +25,6 @@ public class UserInterface {
 
 
 
-=======
->>>>>>> origin/main
     public void display(){
         init();
 
@@ -78,7 +75,6 @@ public class UserInterface {
                 case 9:
                     processRemoveVehicleRequest();
                     break;
-<<<<<<< HEAD
                 case 10:
                     // process to sell or lease vehicle.
 
@@ -90,9 +86,6 @@ public class UserInterface {
 
 
                     case 99:
-=======
-                case 99:
->>>>>>> origin/main
                     break;
             }
         } while(mainMenuCommand != 99);
@@ -228,7 +221,6 @@ public class UserInterface {
             }
         }
 
-<<<<<<< HEAD
 
         System.out.println("Vehicle not found");
 
@@ -362,8 +354,3 @@ public class UserInterface {
 
 
 
-=======
-        System.out.println("Vehicle not found");
-    }
-}
->>>>>>> origin/main
